@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC = gcc$/;"	m
+CHAR_NUM	include/huffman.h	28;"	d
+C_FLAGS	Makefile	/^C_FLAGS = -c -Wall -Iinclude$/;"	m
+C_OBJECTS	Makefile	/^C_OBJECTS = $(patsubst %.c, %.o, $(C_SOURCES))$/;"	m
+C_SOURCES	Makefile	/^C_SOURCES = $(shell find . -name "*.c")$/;"	m
+ChToStr	add/decompress.c	/^void ChToStr(int ch, char tmp_str[])$/;"	f
+CompressFile	add/compress.c	/^void CompressFile(char inpt_file[], char out_file[])$/;"	f
+CrtHuffmanCode	main/huffman.c	/^void CrtHuffmanCode(int w[])$/;"	f
+CrtHuffmanTree	main/huffman.c	/^void CrtHuffmanTree(int w[])$/;"	f
+DeCompressFile	add/decompress.c	/^void DeCompressFile(char inpt_file[], char out_file[])$/;"	f
+FreeSpace	add/compress.c	/^void FreeSpace(void)$/;"	f
+GROUP_SIZE	include/huffman.h	30;"	d
+HUNode	include/huffman.h	/^}HUNode, HuffmanTree[NODE_NUM + 1]; 				\/\/0号单元不用$/;"	t	typeref:struct:__anon1
+HeadInfo	include/huffman.h	/^}HeadInfo;$/;"	t	typeref:struct:__anon2
+HuffmanTree	include/huffman.h	/^}HUNode, HuffmanTree[NODE_NUM + 1]; 				\/\/0号单元不用$/;"	t	typeref:struct:__anon1
+Lchild	include/huffman.h	/^	int 	Lchild;$/;"	m	struct:__anon1
+NODE_NUM	include/huffman.h	29;"	d
+OpenFileError	main/huffman.c	/^void OpenFileError(char inpt_file[], int line)$/;"	f
+PrintCmprssInfo	main/huffman.c	/^void PrintCmprssInfo(char inpt_file[])$/;"	f
+PrintUsage	main/huffman.c	/^void PrintUsage(void)$/;"	f
+Rchild	include/huffman.h	/^	int     Rchild;$/;"	m	struct:__anon1
+Select	main/huffman.c	/^int Select(int n, int *s1, int *s2)$/;"	f
+StrToCh	add/compress.c	/^int StrToCh(char code_str[])$/;"	f
+add_zero	include/huffman.h	/^	int 	add_zero;$/;"	m	struct:__anon2
+g_code_str	include/huffman.h	/^char* 		g_code_str[CHAR_NUM + 1] = {NULL}; 			\/\/0号单元不用,其实自己会被默认初始化为NULL$/;"	v
+g_ht	include/huffman.h	/^HuffmanTree 	g_ht;$/;"	v
+main	main/huffman.c	/^int main(int argc, char *argv[])$/;"	f
+old_bytes	include/huffman.h	/^	int 	old_bytes;$/;"	m	struct:__anon2
+parent	include/huffman.h	/^	int 	parent;$/;"	m	struct:__anon1
+weight	include/huffman.h	/^	int 	weight;$/;"	m	struct:__anon1
